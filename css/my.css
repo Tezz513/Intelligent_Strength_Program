@@ -1,0 +1,39 @@
+p.instructions {
+  font-size: 0.4em;
+}
+
+p.reps {
+  font-size: 0.8em;
+}
+
+h2 {
+  text-transform: capitalize;
+}
+
+.reveal h4 {
+  text-transform: none;
+  font-size: 0.8em;
+  margin-bottom: 0;
+}
+
+ul.overview {
+  font-size: 0.4em;
+  vertical-align: top;
+  margin-left: 2em;
+}
+
+ul.overview li {
+  padding-left: 0em;
+}
+
+.bulletcontainer {
+    width: 100%;
+    display: table;
+    table-layout: fixed;
+}
+.bulletpoints {
+    display: table-cell;
+    text-align: left;
+    padding: 0.1em !important;
+    width: auto;
+}
