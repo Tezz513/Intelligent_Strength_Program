@@ -1,9 +1,9 @@
 p.instructions {
-  font-size: 0.4em;
+  font-size: 0.5em;
 }
 
 p.reps {
-  font-size: 0.8em;
+  font-size: 0.7em;
 }
 
 h2 {
@@ -32,6 +32,18 @@ ul.overview li {
     table-layout: fixed;
 }
 .bulletpoints {
+    display: table-cell;
+    text-align: left;
+    padding: 0.1em !important;
+    width: auto;
+}
+
+.superset_container {
+    width: 100%;
+    display: table;
+    table-layout: fixed;
+}
+.superset_set {
     display: table-cell;
     text-align: left;
     padding: 0.1em !important;
