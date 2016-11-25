@@ -4,10 +4,12 @@ p.instructions {
 
 p.reps {
   font-size: 0.8em;
+  margin-bottom: 0.2em;
+  margin-top: 0;
 }
 
-h2 {
-  text-transform: capitalize;
+.reveal h2 {
+  margin-bottom: 0.1em;
 }
 
 .reveal h4 {
